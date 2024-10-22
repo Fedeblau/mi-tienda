@@ -1,20 +1,16 @@
 import React from 'react'
+import {useState} from 'react';
 
 
 
-const Button = ({fn, text, color}) => {
+const Button = ({fn, texto}) => {
 
-    let className = ""
 
-    if(color === "green"){
-        className = "verde"
-    }else{
-        className= "rojo"
-    }
 
+  console.log("se renderiza boton")
 
   return (
-    <button className={className} onClick={fn}>{text}</button>
+    <button onClick={()=>fn()}> {texto} </button>
   )
 }
 
