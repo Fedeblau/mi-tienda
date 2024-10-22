@@ -52,8 +52,8 @@ export const ItemListContainer = ({greeting}) => {
           <>
           <h3>{product.categoria}</h3>
 
-          
-          <h3>{product.nombre}</h3>   
+
+          <h>{product.nombre}</h3>   
           </>
       )}
       )}
