@@ -51,6 +51,8 @@ export const ItemListContainer = ({greeting}) => {
         return(
           <>
           <h3>{product.categoria}</h3>
+
+          
           <h3>{product.nombre}</h3>   
           </>
       )}
